@@ -11,21 +11,42 @@ body {
     flex-wrap: wrap;
 }
 .contheart {
-    position: absolute;
-    top: 65%;
-    left: 45%;
+    padding-left: 700px;
+    padding-top: 125px;
     transform: translate(-50%, -50%);
     animation: flotar 2s infinite alternate;
+    flex-wrap: wrap;
+
 }
+
+
 .heart {
     height: 150px;
     width: 150px;
     background-color: red;
     position: relative;
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
     box-shadow: -20px 20px 150px  #f20044;
     animation: luz 6s infinite alternate;
 }
+.heart::before {
+    content: '';
+    position: absolute;
+    height: 150PX;
+    width: 150PX;
+    background-color:red;
+    top: -50%;
+    border-radius: 150px;
+    }
+.heart::after {
+        content: '';
+        position: absolute;
+        height: 150PX;
+        width: 150PX;
+        background-color: red;
+        right: -50%;
+        border-radius: 150px;
+        }
 a {
     top: 38px;
     left: 10px;
@@ -53,4 +74,10 @@ img {
     left: 45%;
     transform: translate(-50%, -50%);
     animation: flotar 2s infinite alternate;
+}
+@media (max-width:600px) {
+    .contheart {
+        padding-left: 250px;
+        padding-top: 125px;
+    }
 }

@@ -1,0 +1,5 @@
+const typed = new Typed('.typed2', {
+    strings: [' Hoy, dia 19/09, es un dia normal, sin mucho mas que esperar, ja, se normalizo todo dentro de todo, sigo sintiendome algo culpable por lo de ayer, por eso te pido PERDON, no fui mi intencion, si te hace bien, yo tambien estuve caminando bajo el zonda jasjasj, hoy estaba pensando, como darte una flor, le pregunte a la Ari si ya te dieron una el otro dia, pero bueh, en parte tire la de darte una, ya sabes primavera... y ella me dijo que no, porque tu mama, te haria problema, pero siempre estoy un paso adelante, ja, hace mas de 6 dias estoy trabajando en secreto, peroo bueno, seguro esto te lo de en dos dias? creo, bien... ahora solo quiero que sepas que te quiero, sos mi persona favorita y eso nada lo va a cambiar <3   '],
+    typeSpeed: 50,
+    loop: false,
+});
